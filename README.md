@@ -1,2 +1,2 @@
 # Stars-Eventos
-Este repositorio es un proyecto personal donde pongo en practica mis conocimientos adquiridos en programación wenb, dándole vida a  la página de una empresa de recreación.
+Este repositorio es un proyecto personal donde pongo en práctica mis conocimientos adquiridos en programación web, dándole vida a una página de la empresa de recreación .
