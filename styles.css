@@ -9,6 +9,7 @@ html{
 :root{
     --yellow-star: #ffff00;
     --blue-star:#4241ff;
+    --celeste-star:#33D1FF ;
     --whrite-star:#fdffff;
    
     --sm: 14px;
@@ -24,17 +25,17 @@ html{
     width: 150px;
     height: 65px;
     object-fit: cover;
-    margin-top: 10px;
+    margin-top: 05px;
     margin-left: 10px;
 }
 .header-iconMobileMenu{
-    width: 25px;
+    width: 35px;
     height: 25px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 10px;
 
 }
 header nav{
-    background: var(--whrite-star);
+    background: var(--yellow-star);
 
 }
