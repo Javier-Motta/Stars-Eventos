@@ -15,3 +15,26 @@ html{
     --md: 16px;
     --lg: 18px;
 }
+.header--figure-container{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+.header-logoStarsEventos{
+    width: 150px;
+    height: 65px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header-iconMobileMenu{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+header nav{
+    background: var(--whrite-star);
+
+}
