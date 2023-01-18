@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5% ;
+}
+:root{
+    --yellow-star: #ffff00;
+    --blue-star:#4241ff;
+    --whrite-star:#fdffff;
+   
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
