@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mobile-menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
     <style>
     *{
         box-sizing: border-box;
@@ -13,29 +16,50 @@
     }
     html{
         font-size: 62.5% ;
+        font-family: 'Quicksand', sans-serif;
     }
     :root{
         --yellow-star: #ffff00;
         --blue-star:#4241ff;
         --whrite-star:#fdffff;
-    
+        --black: #000000;
+        --gray: #C7C7C7;
         --sm: 14px;
         --md: 16px;
         --lg: 18px;
     }
-    header nav {
-        display: flex;
-        justify-content: space-between;
+    .header__lisElement-mobileMenu{
+        
+        padding: 20px;
+        width: 100%;
+        height: 724px;
     }
-    .header-logo{
-        width: 250px;
-        height: 124px;
-        align-self: center;
+    /*     .header__lisElement-mobileMenu ul{
+        margin-top: 24px;
+    } */
+    .header__lisElement-mobileMenu ul li{
+        list-style: none;
+        padding-bottom: 20px;  
+    }
+    .header__lisElement-mobileMenu ul li a{
+        text-decoration: none;
+        display: inline-block;
+        color: var(--black);
+        font-weight: bold;
+    }
+    
+    .header__lisElement-mobileMenu ul li:nth-child(5) {
+        border-bottom: 1px solid var(--gray);
+    }
+    #header__lisElement-mobileMenuSingOut{
+        display: flex;
+        position: absolute;
+        align-items: baseline; 
     }
     </style>
 </head>
 <body>
-    <div class="mobile-menu inactive">
+    <section class="header__lisElement-mobileMenu inactive">
         <ul>
             <li>
                 <a href="./">Inicio</a>
@@ -47,15 +71,20 @@
                 <a href="./">Eventos</a>
             </li>
             <li>
-                <a href="./">Galeria</a>
-            </li>
-            <li>
                 <a href="./">Servicios</a>
             </li>
             <li>
-                <a href="./"></a>
+                <a href="./">Galeria</a>
+            </li>
+            <li>
+                <a href="./">Mi Orden</a>
             </li>
         </ul>
-    </div>
+        <ul id="header__lisElement-mobileMenuSingOut">
+            <li>
+                <a href="./">Salir del menú</a>
+            </li>
+        </ul>
+    </section>
 </body>
 </html>
