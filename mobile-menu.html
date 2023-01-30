@@ -29,14 +29,16 @@
         --lg: 18px;
     }
     .header__lisElement-mobileMenu{
-        
+        display: inline-block;
         padding: 20px;
         width: 100%;
         height: 724px;
     }
-    /*     .header__lisElement-mobileMenu ul{
-        margin-top: 24px;
-    } */
+    .header__lisElement-mobileMenu:nth-child(2){
+        display: flex;
+        align-items: baseline;
+
+    }
     .header__lisElement-mobileMenu ul li{
         list-style: none;
         padding-bottom: 20px;  
@@ -52,7 +54,8 @@
         border-bottom: 1px solid var(--gray);
     }
     #header__lisElement-mobileMenuSingOut{
-        display: flex;
+        margin-top: 25px;
+        display: inline-block;
         position: absolute;
         align-items: baseline; 
     }
@@ -76,11 +79,12 @@
             <li>
                 <a href="./">Galeria</a>
             </li>
+
+        </ul>
+        <ul id="header__lisElement-mobileMenuSingOut">
             <li>
                 <a href="./">Mi Orden</a>
             </li>
-        </ul>
-        <ul id="header__lisElement-mobileMenuSingOut">
             <li>
                 <a href="./">Salir del menú</a>
             </li>
