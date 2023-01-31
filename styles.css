@@ -9,9 +9,33 @@ html{
 :root{
     --yellow-star: #ffff00;
     --blue-star:#4241ff;
+    --celeste-star:#33D1FF ;
     --whrite-star:#fdffff;
-   
+    --black: #000000;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
+}
+.header--figure-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+
+}
+.header-logoStarsEventos{
+    width: 150px;
+    height: auto;
+/*     object-fit: cover; */
+    margin: 5px;
+}
+.header-iconMobileMenu{
+    width: 25px;
+    height: auto;
+    margin: 10px;
+
+}
+header nav{
+    background-image: url(./logos/fondo-amarillo.png) ;
+
 }
