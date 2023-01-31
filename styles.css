@@ -5,6 +5,7 @@
 }
 html{
     font-size: 62.5% ;
+    font-family: 'Quicksand', sans-serif;
 }
 :root{
     --yellow-star: #ffff00;
@@ -41,5 +42,36 @@ header nav{
 /*     background-position: center; */
     background-size: cover;
     box-shadow: 0px 0px 20px gray;
+
+}
+/* body */
+/* ::::main__container-description::: */
+.main__container-description{
+    width: 100vw;
+    height: 600px;
+    min-width: 288px;
+    max-width: 900px;
+}
+.main__container-description h1{
+    margin: 20px auto;
+    width: 300PX;
+    height: 50px;    
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+    align-self: center;
+}
+.main__container-description figure img{
+    display: flex;
+    width: 200px;
+    margin: 25px auto;
+    border-radius: 30px;
+}
+.main__container-description figure p{
+    margin: 0px auto;
+    font-size: var(--sm);
+    line-height: 2rem;
+    text-align: center;
 
 }
