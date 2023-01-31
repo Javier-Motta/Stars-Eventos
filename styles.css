@@ -19,23 +19,23 @@ html{
 .header--figure-container{
     display: flex;
     justify-content: space-between;
-    height: 75px;
+    width: 100%;
+    height: 60px;
+
 }
 .header-logoStarsEventos{
     width: 150px;
-    height: 65px;
-    object-fit: cover;
-    margin-top: 05px;
-    margin-left: 10px;
+    height: auto;
+/*     object-fit: cover; */
+    margin: 5px;
 }
 .header-iconMobileMenu{
-    width: 35px;
-    height: 25px;
-    margin-top: 20px;
-    margin-right: 10px;
+    width: 25px;
+    height: auto;
+    margin: 10px;
 
 }
 header nav{
-    background: var(--yellow-star);
+    background-image: url(./logos/fondo-amarillo.png) ;
 
 }
