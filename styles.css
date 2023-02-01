@@ -19,6 +19,7 @@ html{
     --lg: 18px;
 }
 body{
+    width: 100vw;
     background-image: url(./Imágenes/fondoPuntos.png);
 }
 .inactive{
@@ -27,7 +28,7 @@ body{
 .header--figure-container{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     height: 60px;
 
 }
@@ -114,8 +115,59 @@ header nav{
 }
 .main__container-description figure p{
     margin: 0px auto;
+    padding: 0px 10px;
     font-size: var(--sm);
     line-height: 2rem;
     text-align: center;
+}
 
+
+/* main__containerSlide-services */
+.main__containerSlide-services{
+    width: 100vw;
+    height: 700px;
+    min-width: 288px;
+    max-width: 900px;
+}
+.main__containerSlide-services-title{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 20px;
+}
+.main__containerSlide-services-title h1{
+    font-size: var(--lg);
+    font-weight: bold; 
+} 
+.main__container-servicesSlide-contens{
+    width: 100%;
+    height: 650px;
+    margin-top: 30px;
+    min-width: 288px;
+    max-width: 900px;
+}
+.main__container-servicesSlide-contens h2{
+    margin: 10px;
+    width: 100vw;    
+    text-align: center;
+    height: 20px;
+    font-size: var(--md);
+}
+.main__container-servicesSlide-contens figure{
+    display: flex;
+    justify-content: center;
+}
+.main__container-servicesSlide-contens figure img{
+    margin: 0 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}    
+.main__container-servicesSlide-contens p{
+    margin: 0px auto;
+    padding: 0px 10px;
+    height: 460px;
+    font-size: var(--sm);
+    line-height: 2rem;
+    text-align: center;
 }
