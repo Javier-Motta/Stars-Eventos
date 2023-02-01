@@ -1,7 +1,7 @@
 const iconMobileMenu = document.querySelector(".header-iconMobileMenu");
 const lisElementMobileMenu = document.querySelector (".header__lisElement-mobileMenu");
 
-iconMobileMenu.addEventListener("click", toggleMobileMenu);
+iconMobileMenu.addEventListener("touchstart", toggleMobileMenu);
 
 function toggleMobileMenu(){
     lisElementMobileMenu.classList.toggle("inactive");
