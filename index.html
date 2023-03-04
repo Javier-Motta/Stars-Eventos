@@ -12,96 +12,95 @@
 </head>
 <body>
     <header>
-        <nav>
-            <figure class="header--figure-container">
-                <img src="./logos/logoStarsEventos.png" alt="logoStarsEventos" class="header-logoStarsEventos">
-                <img src="./icons/icon_menu.svg" alt="icon-mobileMenu" class="header-iconMobileMenu">
-            </figure>
-
-        </nav>
-    </header>
-    <section class="header__lisElement-mobileMenu inactive">
-        <ul>
-            <li>
-                <a href="./">Inicio</a>
-            </li>
-            <li>
-                <a href="./">Empresa</a>
-            </li>
-            <li>
-                <a href="./">Eventos</a>
-            </li>
-            <li>
-                <a href="./">Servicios</a>
-            </li>
-            <li>
-                <a href="./">Galeria</a>
-            </li>
-
-        </ul>
-        <ul id="header__lisElement-mobileMenuSingOut">
-            <li>
-                <a href="./">Mi Orden</a>
-            </li>
-            <li>
-                <a href="./">Salir del menú</a>
-            </li>
-        </ul>
-    </section>
-    <section class="main__container-description">
-        <div>
-            <h1>Haz de tu fiesta un éxito con Stars Eventos.</h1>
-        </div>
-        <div>
+        <nav class="header__nav-container">
             <figure>
-                <img src="./Imágenes/1.jpg" alt="Foto de presentación">
-                <p>Somos una empresa innovadora en la industria de la recreación y los eventos, con una trayectoria de éxito de 4 años en el mercado. Nos enfocamos en ofrecer servicios de recreación de primera calidad para niños, familias y empresas. Con un equipo altamente capacitado y un enfoque en los detalles, nos aseguramos de que cada experiencia sea única e inolvidable.</p>
+                <img src="./logos/logoStarsEventos.png" alt="logo de Stars Eventos" class="nav__logoStarsEventos">
             </figure>
-        </div>
+            <figure>
+                <img src="./icons/icon_menu.svg" alt="icono de mobile Menu" class="nav__iconMobileMenu">
+            </figure>
+        </nav>
+        <section class="header__nav--mobileMenu inactive">
+            <ul>
+                <li>
+                    <a href="./">Inicio</a>
+                </li>
+                <li>
+                    <a href="./">Empresa</a>
+                </li>
+                <li>
+                    <a href="./">Eventos</a>
+                </li>
+                <li>
+                    <a href="./">Servicios</a>
+                </li>
+                <li>
+                    <a href="./">Galeria</a>
+                </li>
+                <li>
+                    <a href="./">Mi Orden</a>
+                </li>
+                <li>
+                    <a href="./">Salir del menú</a>
+                </li>
+            </ul>
+        </section>
+        <section class="header__section-description">
+            <div>
+                <h1 class="header__section-description--title">Haz de tu fiesta, un éxito con Stars Eventos.</h1>
+            </div>
+            <div>
+                <p class="header__section-description--body">Somos una empresa innovadora en la industria de la recreación y los eventos, con una trayectoria de éxito de 4 años en el mercado. Nos enfocamos en ofrecer servicios de recreación de primera calidad para niños, familias y empresas. Con un equipo altamente capacitado y un enfoque en los detalles, nos aseguramos de que cada experiencia sea única e inolvidable.</p>
+            </div>
+        </section>
+        <a href="#main__containerSlide-services" class="header__bottom title-section">
+            <p>Nuestros servicios</p>
+        </a>
+    </header>
 
+    <main>
 
-    </section>
-
-    <section class="slider">
-        <div class="main__containerSlide-services">
-            <img src="./icons/arrowrLeft.svg" class="Slider__arrow" id="before" alt="Flecha a la izquierda">
-
-                <section class="main__containerSlide-body slider__body--show" data-id="1">
-                    <div class="main__containerSlider-texts">
-                        <h2 class="main__containerSlide-title">Recreación</h2>
-                        <p class="main__containerSlider-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta inventore commodi repellendus animi laborum perferendis quasi asperiores accusantium corporis ducimus. Sequi similique incidunt dolore eveniet molestias, ipsum voluptatem ut quis?</p>
-                        <figure class="main__containerSlide-picture">
-                            <img class="main__containerSlide-img" src="./Imágenes/payasoRecreación.jpg" alt="Representación de la recreación">
-                        </figure>
-                    </div>
-                </section>
-
-                <section class="main__containerSlide-body" data-id="2">
-                    <div class="main__containerSlider-texts">
-                        <h2 class="main__containerSlide-title">Decoración</h2>
-                        <p class="main__containerSlider-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Sequi similique incidunt dolore eveniet molestias, ipsum voluptatem ut quis?</p>
-                        <figure class="main__containerSlide-picture">
-                            <img class="main__containerSlide-img" src="./Imágenes/decoración.jpg" alt="Representación de la recreación">
-                        </figure>
-                    </div>
-                </section>
-
-                <section class="main__containerSlide-body" data-id="3">
-                    <div class="main__containerSlider-texts">
-                        <h2 class="main__containerSlide-title">Logistica</h2>
-                        <p class="main__containerSlider-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta inventore commodi repellendus animi laborum perferendis quasi asperiores accusantium corporis ducimus. </p>
-                        <figure class="main__containerSlide-picture">
-                            <img class="main__containerSlide-img" src="./Imágenes/logisticaMeseros.jpg" alt="Representación de la recreación">
-                        </figure>
-                    </div>
-                </section>
-
-            <img src="./icons/arrowRight.svg" class="Slider__arrow" id="after" alt="Flecha a la derecha">
-        </div>
-    </section>
-
-    <script src="./main.js"></script>
+        <section class="main__containerSlider">
+            <div class="main__containerSlide-services" id="main__containerSlide-services">
+                <img src="./icons/arrowrLeft.svg" class="Slider__arrow" id="before" alt="Flecha a la izquierda">
+    
+                    <section class="main__containerSlide-body slider__body--show" data-id="1">
+                        <div class="main__containerSlider-texts">
+                            <h2 class="main__containerSlide-title">Recreación</h2>
+                            <p class="main__containerSlider-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta inventore commodi repellendus animi laborum perferendis quasi asperiores accusantium corporis ducimus. Sequi similique incidunt dolore eveniet molestias, ipsum voluptatem ut quis?</p>
+                            <figure class="main__containerSlide-picture">
+                                <img class="main__containerSlide-img" src="./Imágenes/payasoRecreación.jpg" alt="Representación de la recreación">
+                            </figure>
+                        </div>
+                    </section>
+    
+                    <section class="main__containerSlide-body" data-id="2">
+                        <div class="main__containerSlider-texts">
+                            <h2 class="main__containerSlide-title">Decoración</h2>
+                            <p class="main__containerSlider-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sequi similique incidunt dolore eveniet molestias, ipsum voluptatem ut quis?</p>
+                            <figure class="main__containerSlide-picture">
+                                <img class="main__containerSlide-img" src="./Imágenes/decoración.jpg" alt="Representación de la recreación">
+                            </figure>
+                        </div>
+                    </section>
+    
+                    <section class="main__containerSlide-body" data-id="3">
+                        <div class="main__containerSlider-texts">
+                            <h2 class="main__containerSlide-title">Logistica</h2>
+                            <p class="main__containerSlider-description">Nuestro servicio de logística en meseros se enfoca en brindar un servicio eficiente y confiable para la entrega de alimentos y bebidas a los clientes.</p>
+                            <figure class="main__containerSlide-picture">
+                                <img class="main__containerSlide-img" src="./Imágenes/logisticaMeseros.jpg" alt="Representación de la recreación">
+                            </figure>
+                        </div>
+                    </section>
+    
+                <img src="./icons/arrowRight.svg" class="Slider__arrow" id="after" alt="Flecha a la derecha">
+            </div>
+        </section>
+    
+        <script src="./main.js"></script>
+    </main>
 
 </body>
 </html>

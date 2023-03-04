@@ -1,5 +1,5 @@
-const iconMobileMenu = document.querySelector(".header-iconMobileMenu");
-const lisElementMobileMenu = document.querySelector (".header__lisElement-mobileMenu");
+const iconMobileMenu = document.querySelector(".nav__iconMobileMenu");
+const lisElementMobileMenu = document.querySelector (".header__nav--mobileMenu");
 
 iconMobileMenu.addEventListener("click", toggleMobileMenu);
 
@@ -33,7 +33,7 @@ function toggleMobileMenu(){
 
 const recreationServiceList = [];
 
-recreationServiceList.push({
+/* recreationServiceList.push({
     name: "ANIMACIÓN INFANTIL - A",
     contens: "Recreación, Pintacaritas, Juegos dinámicos, Show de payaso (pedagógico o Familiar), Globoflexia, Concursos, Sonido",
     price: 160000,
@@ -53,4 +53,4 @@ recreationServiceList.push({
     price: 100000,
     time: "2" + " horas",
     image: s,
-})
+}) */
